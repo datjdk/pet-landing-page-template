@@ -1,0 +1,69 @@
+h1 {
+    font-size: 4vw;
+}
+
+.navbar-brand {
+    margin-left: -10px;
+}
+
+.form-search {
+    display: none !important;
+    margin-top: 30px;
+}
+
+input.menu-search {
+    width: 120px;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-search {
+        display: none !important;
+    }
+    .form-search {
+        display: flex !important;
+    }
+    .session {
+        height: 70vh !important;
+    }
+    .session h1 {
+        font-size: 7vw !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .session {
+        height: 60vh !important;
+    }
+    .session h1 {
+        font-size: 7vw !important;
+    }
+}
+
+.session {
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.session button {
+    background-color: #006600;
+    color: #f2f2f2;
+    font-size: 0.9em;
+    padding: 10px 15px 10px 25px !important;
+}
+
+#session-1 {
+    background-image: url("/img/session_1.png");
+}
+
+#session-2 {
+    /* background-image: url("/img/session_1.jpg"); */
+}
+
+.slide-control .arrow {
+    font-size: 1.3em;
+    color: #b3b3b3;
+    padding: 3px;
+    margin: 3px;
+}

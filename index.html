@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,41 +15,67 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">puppy club</a>
+    <div class="container">
+        <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i> puppy club</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainMenu"
                 aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarMainMenu">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav ml-auto mr-md-2 mr-lg-2 mr-xl-2">
+                    <li class="nav-item mx-xl-4 mx-2 mx-md-2 mx-sm-0">
                         <a class="nav-link" href="#">Find a dog</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-xl-4 mx-2 mx-md-2 mx-sm-0">
                         <a class="nav-link" href="#">How it works</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-xl-4 mx-2 mx-md-2 mx-sm-0">
                         <a class="nav-link" href="#">Adoption info</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-xl-4 mx-2 mx-md-2 mx-sm-0">
                         <a class="nav-link" href="#">Dog care</span></a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search" />
-                    <button class="form-control btn btn-default my-2 my-sm-0" type="submit">
+                <form class="form-inline">
+                    <input class="form-control menu-search" type="search" placeholder="" aria-label="Search" />
+                    <button class="form-control menu-search btn btn-default" type="submit">
                         <i class="fa fa-search"></i>
                     </button>
-                    <button class="form-control btn btn-default">
+                    <button class="form-control btn btn-default ml-xl-3 ml-lg-3">
                         <i class="fas fa-sign-out-alt"></i>
                     </button>
                 </form>
             </div>
         </nav>
 
+        <!-- search form fro small screen -->
+        <form class="form-inline form-search d-flex justify-content-center">
+            <input class="form-control search-input" type="search" placeholder="" aria-label="Search" />
+            <button class="form-control search-btn btn btn-default" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <section class="row session my-3" id="session-1">
+            <!-- left content -->
+            <div class="col my-auto col-7 col-sm-6 col-md-6 col-lg-5 col-xl-5">
+                <h1 class="mt-4">Find your</h1>
+                <h1 class="mb-4">Smart Dog</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn p-2">Get Started <i class="fa fa-angle-right"></i></button>
+            </div>
+        </section>
+        <!-- arrow control -->
+        <div class="row slide-control">
+            <div class="col-2 col-12 col-sm- 12 col-md-12 col-lg-2 col-xl-2 ml-md-auto text-center">
+                <span class="arrow"><i class="fas fa-long-arrow-alt-left"></i></span>
+                <span class="arrow"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
