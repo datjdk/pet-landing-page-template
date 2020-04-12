@@ -1,9 +1,14 @@
-h1 {
+.session h1 {
     font-size: 4vw;
+    color: #4d4d4d;
 }
 
 .navbar-brand {
     margin-left: -10px;
+}
+
+.main-menu a {
+    color: #4d4d4d !important;
 }
 
 .form-search {
@@ -11,8 +16,8 @@ h1 {
     margin-top: 30px;
 }
 
-input.menu-search {
-    width: 120px;
+.menu-search input {
+    width: 150px !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -22,48 +27,90 @@ input.menu-search {
     .form-search {
         display: flex !important;
     }
-    .session {
-        height: 70vh !important;
-    }
+
     .session h1 {
-        font-size: 7vw !important;
+        font-size: 5vw !important;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .session {
-        height: 60vh !important;
-    }
     .session h1 {
         font-size: 7vw !important;
+    }
+
+    .custom-breadcrumb .img {
+        display: none !important;
     }
 }
 
 .session {
-    height: 80vh;
+    height: 50vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 
 .session button {
-    background-color: #006600;
+    background-color: #004d4d;
     color: #f2f2f2;
-    font-size: 0.9em;
     padding: 10px 15px 10px 25px !important;
 }
 
-#session-1 {
-    background-image: url("/img/session_1.png");
+#cover-1 {
+    background-image: url("/img/cover_1.png");
 }
 
-#session-2 {
-    /* background-image: url("/img/session_1.jpg"); */
+#cover-2 {
+    background-image: url("/img/cover_2.png");
 }
 
-.slide-control .arrow {
-    font-size: 1.3em;
-    color: #b3b3b3;
+#cover-3 {
+    background-image: url("/img/cover_1.png");
+}
+
+#cover-4 {
+    background-image: url("/img/cover_2.png");
+}
+
+.rating .arrow {
+    color: #808080;
     padding: 3px;
     margin: 3px;
+}
+
+.rating .unchecked {
+    color: #bfbfbf;
+}
+
+.checked {
+    color: gold;
+}
+
+.session-title {
+    font-size: 1.3em;
+    color: #004d4d;
+    font-weight: 300;
+}
+
+.custom-breadcrumb {
+    color: #004d4d;
+    font-weight: 400;
+}
+
+.custom-breadcrumb .img {
+    display: inline-block;
+    height: 40px;
+    width: auto;
+}
+
+.custom-breadcrumb .fas {
+    font-size: 1.7em;
+    color: #bfbfbf;
+    margin-bottom: -5px;
+}
+
+.product-slide img {
+    width: auto;
+    height: 100%;
+    max-height: 230px;
 }
