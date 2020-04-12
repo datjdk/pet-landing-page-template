@@ -72,8 +72,9 @@
     background-image: url("/img/cover_2.png");
 }
 
-.rating .arrow {
-    color: #808080;
+.slide-control .arrow {
+    font-size: 1.6em;
+    color: #bfbfbf;
     padding: 3px;
     margin: 3px;
 }
