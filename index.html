@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
 </head>
 
@@ -24,32 +24,32 @@
             </button>
 
             <div class="main-menu collapse navbar-collapse" id="navbarMainMenu">
-                <ul class="navbar-nav ml-auto mr-md-2 mr-lg-2 mr-xl-2">
-                    <li class="nav-item mx-3">
+                <ul class="navbar-nav ml-auto mr-lg-2">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Find a dog</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">How it works</span></a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Adoption info</span></a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Dog care</span></a>
                     </li>
                 </ul>
-                <form class="form-inline menu-search">
+                <form class="form-inline menu-search d-md-none d-lg-inline-block">
                     <input class="form-control" type="search" placeholder="" aria-label="Search" />
-                    <button class="form-control btn btn-default" type="submit">
+                    <button class="form-control btn btn-default mx-3" type="submit">
                         <i class="fa fa-search"></i>
                     </button>
                 </form>
-                <a style="color: #8c8c8c;" class="ml-4" href="#"><i class="fas fa-sign-out-alt"></i></a>
+                <a style="color: #8c8c8c;" href="#"><i class="fas fa-sign-out-alt mx-2"></i></a>
             </div>
         </nav>
 
-        <!-- search form fro small screen -->
-        <form class="form-inline form-search d-flex justify-content-end">
+        <!-- search form -->
+        <form class="form-inline my-5 d-flex d-lg-none d-flex justify-content-end">
             <input class="form-control" type="search" placeholder="" aria-label="Search" />
             <button class="form-control search-btn btn btn-default" type="submit">
                 <i class="fa fa-search"></i>
@@ -66,9 +66,9 @@
             </div>
         </section>
 
-        <!-- slide 1 -->
+        <!-- slide control -->
         <div class="row slide-control">
-            <div class="col col-3 mx-auto text-center">
+            <div class="col col-12 col-lg-2 ml-auto text-center">
                 <span class="arrow"><i class="fas fa-long-arrow-alt-left"></i></span>
                 <span class="arrow"><i class="fas fa-long-arrow-alt-right"></i></span>
             </div>
@@ -76,23 +76,23 @@
 
         <!-- breadcrumb -->
         <p class="session-title" style="margin-top: 60px;">Some pups professional for you</p>
-        <div class="row custom-breadcrumb mt-3">
-            <div class="col col-12 col-md-6 col-xl-3 my-2 d-flex align-items-center">
+        <div class="row custom-breadcrumb">
+            <div class="col col-12 col-md-6 col-xl-3 my-3 d-flex align-items-center">
                 <img class="img mr-2" src="/img/dog_face.png">
                 <span class="text mx-2">Dog training</span>
                 <i class="fas fa-chevron-right"></i>
             </div>
-            <div class="col col-12 col-md-6 col-xl-3 my-2 d-flex align-items-center">
+            <div class="col col-12 col-md-6 col-xl-3 my-3 d-flex align-items-center">
                 <img class="img mr-2" src="/img/dog_face.png">
                 <span class="text mx-2">Hygeienic care</span>
                 <i class="fas fa-chevron-right"></i>
             </div>
-            <div class="col col-12 col-md-6 col-xl-3 my-2 d-flex align-items-center">
+            <div class="col col-12 col-md-6 col-xl-3 my-3 d-flex align-items-center">
                 <img class="img mr-2" src="/img/dog_face.png">
                 <span class="text mx-2">Aesthic services</span>
                 <i class="fas fa-chevron-right"></i>
             </div>
-            <div class="col col-12 col-md-6 col-xl-3 my-2 d-flex align-items-center">
+            <div class="col col-12 col-md-6 col-xl-3 my-3 d-flex align-items-center">
                 <img class="img mr-2" src="/img/dog_face.png">
                 <span class="text mx-2">Healthcare tips</span>
                 <i class="fas fa-chevron-right"></i>
@@ -120,25 +120,21 @@
             </div>
         </div>
         <div class="row product-slide mt-5">
-            <div class="col col-12 col-md-4 col-lg-3 d-flex my-3">
-                <img class="mx-auto" src="/img/products/product_1.jpeg" />
+            <div class="col product col-12 col-md-4 col-lg-3 my-3 text-center">
+                <img class="" src="/img/products/product_1.jpeg" />
+                <p class="name">product 1</p>
             </div>
-            <div class="col col-12 col-md-4 col-lg-3 d-flex my-3">
-                <img class="mx-auto" src="/img/products/product_2.jpeg" />
+            <div class="col product col-12 col-md-4 col-lg-3 my-3 text-center">
+                <img class="" src="/img/products/product_2.jpeg" />
+                <p class="name">product 1</p>
             </div>
-            <div class="col col-12 col-md-4 col-lg-3 d-flex my-3">
-                <img class="mx-auto" src="/img/products/product_3.jpeg" />
+            <div class="col product col-12 col-md-4 col-lg-3 my-3 text-center">
+                <img class="" src="/img/products/product_3.jpeg" />
+                <p class="name">product 1</p>
             </div>
-            <div class="col col-12 col-md-4 col-lg-3 d-flex my-3">
-                <img class="mx-auto" src="/img/products/product_4.jpg" />
-            </div>
-        </div>
-
-        <!-- product slide  -->
-        <div class="row slide-control">
-            <div class="col col-3 mx-auto text-center">
-                <span class="arrow"><i class="fas fa-long-arrow-alt-left"></i></span>
-                <span class="arrow"><i class="fas fa-long-arrow-alt-right"></i></span>
+            <div class="col product col-12 col-md-4 col-lg-3 my-3 text-center">
+                <img class="" src="/img/products/product_4.jpg" />
+                <p class="name">product 1</p>
             </div>
         </div>
 
@@ -162,17 +158,17 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star unchecked"></span>
                 </div>
-                <p class="text-secondary">
+                <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.""
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
                 <h6><b>John Cena</b></h6>
                 <p>CEO & Founder @ LOREM</p>
             </div>
         </section>
+        <!-- slide control -->
         <div class="row slide-control">
-            <div class="col col-3 mx-auto text-center">
+            <div class="col col-12 col-lg-2 ml-auto text-center">
                 <span class="arrow"><i class="fas fa-long-arrow-alt-left"></i></span>
                 <span class="arrow"><i class="fas fa-long-arrow-alt-right"></i></span>
             </div>
