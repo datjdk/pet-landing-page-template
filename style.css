@@ -11,15 +11,23 @@
 }
 
 .session {
-    height: 50vh;
+    height: 90vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    color: #4d4d4d;
 }
 
 .session h1 {
-    font-size: 4vw;
-    color: #4d4d4d;
+    font-size: 5vw;
+}
+
+.session h4 {
+    font-size: 2vw;
+}
+
+.session p {
+    font-size: 1.1rem;
 }
 
 .session button {
