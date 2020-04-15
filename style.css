@@ -149,6 +149,7 @@ a:link {
     padding: 0 15px 0 10px;
     border: none;
     height: 2rem;
+    width: 100%;
     font-size: 0.8em;
 }
 
@@ -197,7 +198,7 @@ a:link {
 
 .footer .break-line {
     display: block;
-    height: 2px;
+    height: 1px;
     margin-bottom: 1rem;
     background-color: #d9d9d9;
 }
