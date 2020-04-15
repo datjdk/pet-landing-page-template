@@ -1,13 +1,26 @@
+* {
+    color: #666666;
+}
+
+a {
+    color: #666666;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* main nav bar */
 .navbar-brand {
     margin-left: -10px;
 }
 
 .main-menu a {
-    color: #4d4d4d !important;
+    font-weight: 600;
 }
 
 .menu-search input {
-    width: 150px !important;
+    width: 10rem !important;
 }
 
 .session {
@@ -15,7 +28,6 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    color: #4d4d4d;
 }
 
 .session h1 {
@@ -38,8 +50,8 @@
 
 .session-title {
     font-size: 1.3em;
-    color: #004d4d;
-    font-weight: 300;
+    color: #006666;
+    font-weight: 400;
 }
 
 #cover-1 {
@@ -74,19 +86,19 @@
 }
 
 .custom-breadcrumb {
-    color: #004d4d;
-    font-weight: 400;
+    color: #8c8c8c;
+    font-weight: 600;
 }
 
 .custom-breadcrumb .img {
     display: inline-block;
-    height: 40px;
+    height: 2rem;
     width: auto;
 }
 
 .custom-breadcrumb .fas {
-    font-size: 1.7em;
-    color: #bfbfbf;
+    font-size: 1em;
+    color: #595959;
     margin-bottom: -5px;
 }
 
@@ -106,6 +118,90 @@
     font-weight: 600;
 }
 
+/* footer */
+.footer {
+    margin-top: 5vh;
+    background-color: #f0f5f5;
+}
+
+.footer a {
+    font-weight: 600;
+}
+
+.email-form h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.email-form p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2rem 0 1.2rem 0;
+}
+
+.email-input {
+    padding: 1rem;
+    max-width: 30rem;
+    background-color: #ffffff;
+}
+
+.email-input input {
+    padding: 0 15px 0 10px;
+    border: none;
+    height: 2rem;
+    font-size: 0.8em;
+}
+
+.email-input input:focus {
+    outline: none !important;
+}
+
+.email-input button {
+    padding: 10px 20px 10px 20px;
+    color: #f2f2f2;
+    font-size: 0.8rem;
+    background-color: #004d4d;
+}
+
+.contact .title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+    color: #75a3a3;
+}
+
+.contact .number {
+    font-size: 1.2rem;
+    color: #595959;
+}
+
+.contact .address {
+    margin: 0;
+    color: #808080;
+    font-size: 0.9rem;
+}
+
+.follow .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+}
+
+.follow .icon {
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    margin: 0 0.3rem 0 0;
+    color: #8c8c8c;
+    background-color: #c2d6d6;
+    border-radius: 30px;
+}
+
+.footer .break-line {
+    display: block;
+    height: 2px;
+    margin-bottom: 1rem;
+    background-color: #d9d9d9;
+}
+
 @media only screen and (max-width: 992px) {
     .session h1 {
         font-size: 5vw !important;
@@ -119,5 +215,17 @@
 
     .custom-breadcrumb .img {
         display: none !important;
+    }
+
+    .email-input {
+        background-color: #f0f5f5;
+    }
+    .email-input input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1.5rem;
+    }
+    .email-input button {
+        width: 100%;
     }
 }
