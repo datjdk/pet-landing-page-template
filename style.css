@@ -34,10 +34,6 @@ a:link {
     font-size: 5vw;
 }
 
-.session h4 {
-    font-size: 2vw;
-}
-
 .session p {
     font-size: 1.1rem;
 }
@@ -49,25 +45,25 @@ a:link {
 }
 
 .session-title {
-    font-size: 1.3em;
+    font-size: 1.1rem;
     color: #006666;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #cover-1 {
-    background-image: url("/img/cover_1.png");
+    background-image: url("/img/dog_cover_1.png");
 }
 
 #cover-2 {
-    background-image: url("/img/cover_2.png");
+    background-image: url("/img/dog_cover_2.png");
 }
 
 #cover-3 {
-    background-image: url("/img/cover_1.png");
+    background-image: url("/img/dog_cover_1.png");
 }
 
 #cover-4 {
-    background-image: url("/img/cover_2.png");
+    background-image: url("/img/dog_cover_2.png");
 }
 
 .slide-control .arrow {
