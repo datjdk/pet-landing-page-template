@@ -51,19 +51,19 @@ a:link {
 }
 
 #cover-1 {
-    background-image: url("/img/dog_cover_1.png");
+    background-image: url("img/dog_cover_1.png");
 }
 
 #cover-2 {
-    background-image: url("/img/dog_cover_2.png");
+    background-image: url("img/dog_cover_2.png");
 }
 
 #cover-3 {
-    background-image: url("/img/dog_cover_1.png");
+    background-image: url("img/dog_cover_1.png");
 }
 
 #cover-4 {
-    background-image: url("/img/dog_cover_2.png");
+    background-image: url("img/dog_cover_2.png");
 }
 
 .slide-control .arrow {
