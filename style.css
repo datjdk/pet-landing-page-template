@@ -24,14 +24,14 @@ a:link {
 }
 
 .session {
-    height: 90vh;
+    height: 65vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 
 .session h1 {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .session p {
@@ -48,6 +48,7 @@ a:link {
     font-size: 1.1rem;
     color: #006666;
     font-weight: 600;
+    padding-left: 0.5rem;
 }
 
 #cover-1 {
@@ -88,7 +89,7 @@ a:link {
 
 .custom-breadcrumb .img {
     display: inline-block;
-    height: 2rem;
+    height: 50px;
     width: auto;
 }
 
