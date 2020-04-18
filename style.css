@@ -24,7 +24,7 @@ a:link {
 }
 
 .session {
-    height: 65vh;
+    height: 70vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -48,7 +48,6 @@ a:link {
     font-size: 1.1rem;
     color: #006666;
     font-weight: 600;
-    padding-left: 0.5rem;
 }
 
 #cover-1 {
