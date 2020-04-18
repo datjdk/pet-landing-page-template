@@ -84,6 +84,7 @@ a:link {
 .custom-breadcrumb {
     color: #8c8c8c;
     font-weight: 600;
+    margin-bottom: 5rem;
 }
 
 .custom-breadcrumb .img {
